@@ -1,0 +1,7 @@
+One sample t-test
+used for individual data like age,marks with t test
+analyse->compare mean->one -sample t test
+
+
+Two sample t-test
+analayse->compare mean->independent-sample T test

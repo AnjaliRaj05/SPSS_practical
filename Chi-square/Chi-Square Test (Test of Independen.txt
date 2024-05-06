@@ -1,0 +1,14 @@
+Chi-Square Test (Test of Independence):
+Definition: The Chi-Square test of independence is used to determine whether there is a significant association between two categorical variables.
+
+Mann-Whitney U Test:
+Definition: The Mann-Whitney U test is a non-parametric test used to assess whether two independent groups have significantly different distributions.
+Use Case: For example, comparing the distribution of test scores between two different teaching methods.
+Wilcoxon Signed-Rank Test:
+Definition: The Wilcoxon signed-rank test is a non-parametric test used to compare the distributions of two related (paired) samples.
+
+Kruskal-Wallis H-Test:
+Definition: The Kruskal-Wallis test is a non-parametric test used to determine if there are significant differences between three or more independent groups.
+
+Spearman's Rank-Order Correlation:
+Definition: Spearman's correlation assesses the strength and direction of association between two continuous or ordinal variables.

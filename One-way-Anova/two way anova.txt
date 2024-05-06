@@ -1,0 +1,40 @@
+two way anova
+interaction effect
+effect of two independence variables(group+gender) shows an effect on dependent variable marks
+
+(1) there is no significant difference between male and female marks
+(2)there is  significant difference between male and female marks
+
+(3) there is no significant difference in marks of groups(A,B,C)
+(4)there is  significant difference in marks of groups(A,B,C)
+
+(5) No significant effect of gender and groups on marks simultaneously
+
+(6) thei is significant effect of gender and groups on marks simultaneously
+
+Path 
+analyize->general Lineral Model->Univarriate
+
+
+Tests of Between-Subjects Effects					
+Dependent Variable:   Marks 
+Source	Type III Sum of Squares	df	Mean Square	F	Sig.
+Corrected Model	334.233a	5	66.847	3.235	.139
+Intercept	48212.595	1	48212.595	2332.868	.000
+Group	231.052	2	115.526	5.590	.069
+Gender	72.024	1	72.024	3.485	.135
+Group * Gender	10.052	2	5.026	.243	.795
+Error	82.667	4	20.667		
+Total	66189.000	10			
+Corrected Total	416.900	9			
+a R Squared = .802 (Adjusted R Squared = .554)					
+
+
+
+Intercept: This represents the overall mean of the dependent variable, regardless of the levels of the independent variables.
+Group: This indicates the main effect of the "Group" variable. The p-value associated with "Group" is 0.069, which is greater than the typical significance level of 0.05. Therefore, the effect of "Group" on "Marks" is not statistically significant at the conventional level.
+Gender: This indicates the main effect of the "Gender" variable. The p-value associated with "Gender" is 0.135, which is also greater than 0.05. Hence, the effect of "Gender" on "Marks" is not statistically significant at the conventional level.
+Group * Gender: This represents the interaction effect between "Group" and "Gender." The p-value associated with the interaction is 0.795, indicating that the interaction effect is not statistically significant.
+Error: This represents the variability in the dependent variable that is not explained by the independent variables. The mean square of the error term is an estimate of the within-group variance.
+Total: This row provides the total sum of squares, degrees of freedom, and mean square for all sources of variation.
+Corrected Total: This represents the total sum of squares after removing the variability explained by the independent variables. It's used in calculating the R-squared value.
